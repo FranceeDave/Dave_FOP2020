@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+ 
+int main()
+{
+    //state the variable
+    int number, remainder;
+
+    //input the number
+    cout << "Enter the number : ";
+    cin >> number;
+    
+    // determine wether it's odd or even 
+  
+    remainder = number % 2;
+    if (remainder == 0){
+        cout << number << " is even " << endl;
+    }
+    else {
+        cout << number << " is odd " << endl;}
+ 
+    return 0;
+}
